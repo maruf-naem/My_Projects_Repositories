@@ -1,2 +1,2 @@
-# My-Third-2-Project
+# My Projects
 This is my Second project with my little knowledge of HTML and CSS. Till I didn't learn JS but I will Start very soon.
