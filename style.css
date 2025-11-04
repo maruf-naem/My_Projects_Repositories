@@ -1,0 +1,402 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    border: border-box;
+}
+.navebar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.nav-logo{
+    height: 50px;
+    width:115px ;
+}
+.logo{
+    background-image: url(https://www.shutterstock.com/image-vector/amazon-logo-editorial-icon-isolated-600nw-2333488123.jpg);
+    height: 50px;
+    width:100%;
+    background-size: cover;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white
+}
+
+/* For Box 2 */
+
+#icon1{
+    font-size:.85rem;
+    color:#cccccc;
+    margin-left: 25px;
+}
+#icon2{
+    font-size: 1rem;
+    margin-left: 3px;
+   
+}
+.add-icon{
+    display: flex;
+}
+
+
+
+
+
+
+/* For Box 3 */
+.nev-search{
+    display: flex;
+    /* padding: 10px 4px 10px 3px; */
+    background-color: pink;
+    width: 880px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+
+    
+}
+.nev-search:
+.nev-search:active{
+    border:#f3a847 2px solid;
+    
+}
+.select-opt{
+    /* font-size: .88rem;
+    color: #0f1111;
+    background-color: #ffffff; */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+    background-color: #e6e6e6;
+    padding-left: 5px;
+    font-size: 14px;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.inp-search{
+    /* padding: 7px 10px 10px 0px; */
+    border: none;
+    width: 100%;
+    height: 38px;
+    font-size: 1rem;
+ 
+
+}
+.search-icon{
+    /* align-content: center;
+    height: 45px;
+    width: 40px;
+    background-color: yellowgreen; */
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3a847;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px;
+    font-size: 1.3rem;
+    color: black;
+  
+}
+
+
+
+
+
+/* for Box 4 and 5 */
+span{
+    font-size: 12px;
+}
+.nev-acc{
+   font-size: 14px;
+    font-weight: 700;
+}
+
+
+
+
+
+/* for box 6 */
+.cart i{
+  font-size: 25px;
+}
+.cart{
+    font-weight: 700;
+    font-size: .80rem;
+}
+
+
+
+
+
+
+ /* nev 2 */
+
+ .nev-2{
+    height: 40px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+.nev2-2{
+   display: flex;
+   width: 75%;
+   font-size: .90rem;
+
+}
+.nev2-3{
+    font-size: .95rem;
+    font-weight: 700;
+}
+.mar{
+    margin-left: 25px;
+}
+
+
+
+/* Hero Message */
+
+.baca{
+    height: 400px;
+    background-image: url("hero.jpg");
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    
+}
+
+
+.heromessage{
+    display: flex;
+    height: 45px;
+    width: 80%;
+    background-color: #f3f5f5;
+    justify-content: center;
+    align-items: center;
+    font-size: .85rem;
+    margin-bottom: 75px;
+}
+.pmessage{
+    color: black;
+    
+}
+
+.mlink{
+    text-decoration: none;
+    color: #007185;
+    
+}
+
+
+/* Shop Section */
+
+.contentsection{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #eeeeee;
+}
+.contentsection2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #eeeeee;
+}
+
+
+    
+.box{
+    height: 400px;
+    width: 23.6%;
+    background-color: white;
+    padding: 20px 0px 15px 0px;
+    margin-top:1rem;     
+}
+.boxx{
+    margin-bottom:1rem;     
+}
+
+.div1-2{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-image{
+    height: 320px;
+    width: 320px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b-1l{
+    text-decoration: none;
+    color: #007185;
+    font-size: 16px;
+}
+
+/* last section */
+
+
+.last-div{
+    height: 150px;
+    border-top: rgba(00, 00, 00, .4) 1px solid;
+    border-bottom: rgba(00, 00, 00, .4) 1px solid;
+    margin-bottom: 25px;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.last-h2{
+       font-size: 24px;
+       margin-bottom: 20px;
+}
+
+.las-button{
+    height: 30px;
+    width: 240px;
+    border-radius: 25px;
+    background-color: #FFCE12;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border:none;
+}
+
+.last-p{
+    font-size: 11px;
+}
+
+
+/* Foooter section */
+footer{
+    height: 620px;
+    background-color: #232F3E;
+    
+}
+
+
+/* Footer section 1 */
+.fotter-div1{
+    height: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #37475A;
+    color: white;
+    align-content: center;
+    text-align: center;
+    font-size: 13px;
+}
+
+/* Footer section 2 */
+/* .footer-div2{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-div2-1{
+  border: #dddddd 2px solid;
+  width: 140px;
+  
+}
+#footer-div2-sub-h3{
+    font-size: 16px;
+    color: white;
+}
+.footer-div2-sub{
+    display: flex;
+    border: #dddddd 2px solid;
+    width: 140px;
+}
+.footer-div2-ul1{
+    color: #dddddd;
+    list-style: none;
+} */
+
+.footer-div2{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 350px;
+    border-bottom: rgb(72, 72, 72) 1px solid;
+}
+
+ul a{
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #dddddd;
+}
+ ul{
+    margin-top: 50px;
+ }
+ .ph{
+    font-weight: 700;
+ }
+
+
+
+ .footer-div3{
+    height: 150px;
+    background-color:#232F3E;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+ }
+
+.logo{
+     background-image: url(amazon-removebg-preview.png);
+    height: 30px;
+    width: 100px;
+    background-size: cover;
+    color: white;
+    margin-top: 15px;
+}
+
+.navfooterline1{
+    width: 500px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.navfooterline{
+    height: 40px;
+    width: 150px;
+    border: .85px solid rgb(146, 146, 146);
+    font-size: 13px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 1x 10px 1px 6px;
+}
+
+
+.lastfootersection{
+    align-content: center;
+    text-align: center;
+}
+.lastfooter12{
+    font-size: 12px;
+    color: #dddddd;
+}
+
